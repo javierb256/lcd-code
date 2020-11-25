@@ -24,7 +24,7 @@ import sys
 import Adafruit_DHT
 import I2C_LCD_driver
 
-display = lcddriver.lcd()
+display = I2C_LCD_driver.lcd()
 
 
 # Parse command line parameters.

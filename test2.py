@@ -1,7 +1,7 @@
 import Adafruit_DHT
 import I2C_LCD_driver
 
-mylcd = I2C_LCD_driver.lcd()
+mylcd2 = I2C_LCD_driver.lcd()
 sensor=Adafruit_DHT.DHT22
 
 gpio = 17

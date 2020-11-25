@@ -22,7 +22,7 @@
 import sys
 
 import Adafruit_DHT
-import lcddriver
+import I2C_LCD_driver
 
 display = lcddriver.lcd()
 
